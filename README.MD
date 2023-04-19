@@ -42,6 +42,7 @@ As for the country, if you want to edit it, you can see in the line 30 this:
 
 To change the country you want to retrieve data from, you will have to put a file name **[country]_OACI.txt** instead of **OACI_FR.txt** This fiel contain all OACI codes from the airports of one country.
 You'll have to edit on the line 6 as well something.
+
 ![img_4.png](for_readme/img_4.png)
 
 As you can see, the file starts with the mention **FR**, you'll have to use the right country code.
