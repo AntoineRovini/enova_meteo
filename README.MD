@@ -21,6 +21,7 @@ Once you are in the right directory, you can execute the following command:
 > **python oaci.py**
 
 Once the comande is complete, it will show you a file named **[country]_[date]_weather.csv rght beside the python script:
+
 ![img_1.png](for_readme/img_1.png)
 
 You will be able to open the csv file with Microsoft Excel or any other editor that accept the csv format.
