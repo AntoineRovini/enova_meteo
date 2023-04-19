@@ -2,8 +2,8 @@ import requests
 import csv
 import os
 
+date = '2019-09-12'
 
-date = '2023-04-19'
 
 def get_weather_data(station_code, date_str, writer):
     year, month, day = date_str.split('-')
@@ -26,7 +26,7 @@ def read_airport_codes(filename):
     return airport_codes
 
 
-airport_codes = read_airport_codes('OACI.txt')
+airport_codes = read_airport_codes('OACI_FR.txt')
 output_file = f'FR_2023-04-19_weather.csv'
 
 # Check if output file exists, if not create it
