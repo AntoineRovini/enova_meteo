@@ -3,6 +3,7 @@ import csv
 import os
 
 date = '2019-09-12'
+output_file = f'FR_{date}_weather.csv'
 
 
 def get_weather_data(station_code, date_str, writer):
@@ -27,7 +28,6 @@ def read_airport_codes(filename):
 
 
 airport_codes = read_airport_codes('OACI_FR.txt')
-output_file = f'FR_{date}_weather.csv'
 
 # Check if output file exists, if not create it
 if not os.path.isfile(output_file):
