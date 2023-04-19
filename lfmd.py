@@ -15,5 +15,4 @@ def get_weather_data(station_code, date_str, output_file):
             writer.writerow(row)
 
 
-
 get_weather_data('LFMD', '2023-04-19', 'weather_data.csv')
