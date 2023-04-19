@@ -27,7 +27,7 @@ def read_airport_codes(filename):
 
 
 airport_codes = read_airport_codes('OACI_FR.txt')
-output_file = f'FR_2023-04-19_weather.csv'
+output_file = f'FR_{date}_weather.csv'
 
 # Check if output file exists, if not create it
 if not os.path.isfile(output_file):
