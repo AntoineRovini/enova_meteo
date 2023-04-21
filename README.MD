@@ -8,6 +8,7 @@ The following program **oaci.py** is a program that takes in parameter a **OACI_
 # How to use the program
 
 To launch the program, launch a terminal (shell) on your pc, Windows, Mac, or Linux.
+
 ![img.png](for_readme/img.png)
 
 Once you have opened your command prompt, go to the location of the file using the command:
@@ -32,6 +33,7 @@ You will be able to open the csv file with Microsoft Excel or any other editor t
 Now to edit the program, so it can take any date or any country you want, you will have to open in your favorite editor (for exemple PyCharm or Notepad) the file oaci.py.
 
 Once you opened it, you will see the the line 5 the **date** variable. The date is in the following format : YYYY-MM-DD
+
 ![img_2.png](for_readme/img_2.png)
 
 If you want to have a specific date, you will have to modify this paramter to another year, month and date in the correct format.
